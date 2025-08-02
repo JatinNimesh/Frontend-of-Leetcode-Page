@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leetcode Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-[#1A1A1A]">
+    <!--Navbar-->
+    <nav class="px-4 py-3 border-b border-gray-500 bg-[#282828]">
+        <div class="container px-48 mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-6">
+                <img src="./logo.png" alt="logo" class="h-8">
+                <a href="" class="hover:text-white text-gray-300">Explore</a>
+                <a href="" class="hover:text-white text-gray-300">Problems</a>
+                <a href="" class="hover:text-white text-gray-300">Contest</a>
+                <a href="" class="hover:text-white text-gray-300">Discuss</a>
+                <a href="" class="hover:text-white text-gray-300">Interview <i class="fas fa-angle-down ml-1"></i></a>
+                <a href="" class="hover:text-white text-gray-300">Store <i class="fas fa-angle-down ml-1"></i></a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-bell text-white text-lg"></i>
+                <div class="bg-gray-700 rounded-full px-2 py-1 items-center">
+                    <i class="fas fa-bolt text-yellow-400"></i>
+                    <span class="text-white text-sm">0</span>
+                </div>
+                <div class="w-8 h-8 rounded-full overflow-hidden">
+                    <img src="./Profile.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <button class="bg-[#FFA116] px-3 py-1 rounded-md font-semibold hover:bg-[#FF9900]">Premium</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--Section tag-->
+    <section>
+        <div class="flex justify-center m-6">
+            <!--Left side content-->
+            <div class="bg-[#282828] text-white p-6 rounded-lg w-80 h-full mr-4">
+                <div class="flex items-center mb-4">
+                    <img src="./Profile.jpg" alt="" class="h-20 w-20 rounded-lg mr-4">
+                    <div>
+                        <h1 class="text-xl font-bold">Anonymous</h1>
+                        <p class="text-gray-400">Rank <span class="text-white">1100</span></p>
+                    </div>
+                </div>
+                <p class="mb-4 text-gray-300">Lorem ipsum dolor sit amet.</p>
+                <button class="w-full text-[#2DBA5D] bg-[#2B392F] py-2 rounded-lg mb-4">Edit profile</button>
+                <div class="space-y-2 mb-4">
+                    <!--India-->
+                    <div class="flex items-center ">
+                        <i class="fas fa-map-marker w-6 text-gray-400"></i>
+                        <p class="text-gray-400">India</p>
+                    </div>
+
+                    <!--IIT-->
+                    <div class="flex items-center ">
+                        <i class="fas fa-graduation-cap w-6 text-gray-400"></i>
+                        <p class="text-gray-400">Graduation</p>
+                    </div>
+
+                    <!--Github-->
+                    <div class="flex items-center ">
+                        <i class="fab fa-github w-6 text-gray-400"></i>
+                        <p class="text-gray-400">Github</p>
+                    </div>
+
+                    <!--Linkedin-->
+                    <div class="flex items-center ">
+                        <i class="fab fa-linkedin w-6 text-gray-400"></i>
+                        <p class="text-gray-400">Linkedin</p>
+                    </div>
+                </div>
+
+                <!--Communtiy Stats-->
+                <div class="mb-4">
+                    <h1 class="text-lg font-bold mb-2 py-1 inline-block">Community Stats</h1>
+                    <div class="space-y-2">
+                        <!--Views-->
+                        <div class="flex items-center">
+                            <i class="fas fa-eye w-6 text-[#0A84FF]"></i>
+                            <p class="text-gray-400">Views <span class="ml-1">567</span></p>
+                        </div>
+                        <!--Solution-->
+                        <div class="flex items-center">
+                            <i class="fas fa-check w-6 text-[#64D1FE]"></i>
+                            <p class="text-gray-400">Solution <span class="ml-1">231</span></p>
+                        </div>
+                        <!--Discuss-->
+                        <div class="flex items-center">
+                            <i class="fas fa-book w-6 text-[#00B8A2]"></i>
+                            <p class="text-gray-400">Discuss <span class="ml-1">10</span></p>
+                        </div>
+                        <!--Reputation-->
+                        <div class="flex items-center">
+                            <i class="fas fa-star w-6 text-[#FFA015]"></i>
+                            <p class="text-gray-400">Reputation <span class="ml-1">0</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Languages-->
+                <div class="mb-4">
+                    <h1 class="text-lg font-bold mb-2 py-1 inline-block">Languages</h1>
+                    <div class="space-y-2">
+                        <!--C++-->
+                        <div class="flex items-center justify-between">
+                            <div class="bg-[#3E3E3E] px-2 py-1 rounded-full text-gray-400 ">
+                                <p>C++</p>
+                            </div>
+                            <p class="text-sm">
+                                134 <span class="text-gray-400">problem solved</span>
+                            </p>
+                        </div>
+                        <!--java-->
+                        <div class="flex items-center justify-between">
+                            <div class="bg-[#3E3E3E] px-2 py-1 rounded-full text-gray-400 ">
+                                <p>Java</p>
+                            </div>
+                            <p class="text-sm">
+                                34 <span class="text-gray-400">problem solved</span>
+                            </p>
+                        </div>
+
+                        <!--Javascript-->
+                        <div class="flex items-center justify-between">
+                            <div class="bg-[#3E3E3E] px-2 py-1 rounded-full text-gray-400 ">
+                                <p>Javascript</p>
+                            </div>
+                            <p class="text-sm">
+                                104 <span class="text-gray-400">problem solved</span>
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Right side content-->
+            <div class="w-1/2">
+                <div class="flex bg-[#282828] text-white p-6 rounded-lg w-full mb-4">
+                    <div class="w-1/2 pr-4">
+                        <!--Contest info section-->
+                        <div>
+                            <div class="flex justify-between items-center mb-6">
+                                <div class="space-y-2">
+                                    <p class="text-sm text-gray-400">Contest Rating</p>
+                                    <p class="text-xl font-bold">780</p>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <p class="text-sm text-gray-400">Global Ranking</p>
+                                    <p class="text-xl font-bold">900,23,433</p>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <p class="text-sm text-gray-400">Attended</p>
+                                    <p class="text-xl font-bold">5</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center mb-6">
+                                <img src="./Rating Graph.png" alt="" class="w-full h-auto rounded-lg">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Top percentage section-->
+                    <div class="w-1/2 pl-4">
+                        <div class="space-y-2">
+                            <p class="text-sm text-gray-400">Top</p>
+                            <p class="text-3xl font-bold">1%</p>
+                        </div>
+
+                        <div class="flex justify-center mt-4">
+                            <img src="./Rating Chart.png" alt="top chart" class="w-full h-auto rounded-lg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-6 text-white mb-4">
+                    <div class="flex-1 flex justify-between space-y-4 bg-[#282828] p-6 rounded-lg justify-center items-center">
+                        <div class="relative">
+                            <h1 class="text-4xl font-bold">342/1232</h1>
+                            <p class="text-green-500 flex items-center mt-1">
+                                <i class="fas fa-check mr-1"></i>Solved
+                            </p>
+                        </div>
+
+                        <div class="space-y-2 w-full pl-10">
+                            <div class="flex justify-between items-center">
+                                <p class="text-teal-400">Easy</p>
+                                <p>134</p>
+                            </div>
+
+                            <div class="flex justify-between items-center">
+                                <p class="text-yellow-400">Medium</p>
+                                <p>334</p>
+                            </div>
+
+                            <div class="flex justify-between items-center">
+                                <p class="text-red-400">Hard</p>
+                                <p>14</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Right section-->
+                    <div class="flex-1 flex flex-col space-y-4 bg-[#282828] p-6 rounded-lg">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-gray-400">Badges</p>
+                                <p class="text-2xl">1</p>
+                            </div>
+                            <i class="fas fa-arrow-right text-gray-400"></i>
+                        </div>
+                        <div class="flex mx-auto h-50 w-60">
+                            <img src="./50 day.png" alt="badge" class="h-full w-full object-cover">
+                        </div>
+                        <div>
+                            <p class="text-gray-400" >Most Recent Badge</p>
+                            <p class="text-lg">50 Days Badge 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--submission part-->
+                <div class="bg-[#282828] p-6 rounded-lg text-white space-y-4 mb-4">
+                    <!--Top section-->
+                    <div class="flex text-center justify-between items-center">
+                        <p class="text-2xl font-bold ">422 submissions in 2023</p>
+                        <p class="text-sm text-gray-400">Total active days: 114 | Max streak: 47 in 2025</p>
+                    </div>
+
+                    <!--Bottom section-->
+                    <div>
+                        <img src="./leetcode calender.png" alt="" class="w-full h-auto ">
+                    </div>
+                </div>
+
+                <!--Last section-->
+                <div class="bg-[#282828] p-6 rounded-lg text-white space-y-4 mb-4">
+                    <!--Top section-->
+                    <div class="flex justify-between items-center">
+                        <div class="space-x-2">
+                            <button class="bg-[#3E3E3E] hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">Recent AC</button>
+                            <button class="hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">List</button>
+                            <button class="hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">Solutions</button>
+                            <button class="hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">Discuss</button>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 hover:text-teal-400 cursor-pointer">View all submissions</p>
+                        </div>
+                    </div>
+
+                    <!--Problem entries-->
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-1</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-2</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-3</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-4</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-5</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-6</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-7</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                        <div class="flex justify-between items-center rounded-lg p-4 bg-[#3a3a3a]">
+                            <p class="font-semibold">Problem-8</p>
+                            <p class="text-gray-400 text-sm">1 month-ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
